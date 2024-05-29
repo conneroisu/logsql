@@ -1,7 +1,7 @@
 #!/bin/bash
 # file: makefile.lint.sh
 # url: https://github.com/conneroisu/logsql/blob/main/scripts/makefile.lint.sh
-# description: Runs all linters
+# description: Runs all linters on the logsql repository.
 # 
 # Usage: make lint
 

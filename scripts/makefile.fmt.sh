@@ -1,17 +1,17 @@
 #!/bin/bash
 # file: makefile.fmt.sh
 # url: https://github.com/conneroisu/logsql/blob/main/scripts/makefile.fmt.sh
-# title: Formatting Go Files
 # description: This script formats the Go files using gofmt and golines.
 #
 # Usage: make fmt
-
+GO_FILES := $(shell find . -name '*.go' | grep -v /vendor/)
 targets=(
 	"*.go"
 	"**/*.go"
 	"**/**/*.go"
 	"**/**/**/*.go"
 	"**/**/**/**/*.go"
+	"**/**/**/**/**/*.go"
 )
 
 # For each of the targets, run gofmt and goline.

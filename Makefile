@@ -21,7 +21,3 @@ lint:
 PHONY: tidy
 tidy:
 	@sh ./scripts/makefile.tidy.sh
-
-PHONY: scrape
-scrape:
-	@sh ./scripts/makefile.scrape.sh

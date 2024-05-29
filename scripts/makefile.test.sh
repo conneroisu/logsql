@@ -6,7 +6,7 @@
 #
 # Usage: make test
 
-go test -v ./... -coverprofile=coverage.out
+TESTING=True go test -v ./... -coverprofile=coverage.out
 
 # if gocovsh is installed, then run it
 if command -v gocovsh > /dev/null; then
